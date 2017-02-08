@@ -19,13 +19,7 @@ var animatePoints = function(points){
 
 window.onload = function(){
     
-    if(window.innerHeight > 950) {
-        animatePoints(pointsArray);
-    }
-<<<<<<< .merge_file_a12456
 
-=======
->>>>>>> .merge_file_a12084
 
     window.addEventListener('scroll',function(event){
       if (pointsArray[0].getBoundingClientRect().top <= 500) {
